@@ -67,14 +67,14 @@ function displayResults (weather) {
     let icon = document.querySelector('.current .icon')
 
     if (weatherReport.innerText === 'Clouds') {
-        icon.innerHTML = `<img src="animated/cloudy.svg">`;
+        icon.innerHTML = `<img src="../dist/img/cloudy.svg">`;
     }else if (weatherReport.innerText === 'Clear') {
-        icon.innerHTML = `<img src="animated/day.svg">`;
+        icon.innerHTML = `<img src="../dist/img/day.svg">`;
     } else if (weatherReport.innerText === 'Rain') {
-        icon.innerHTML = `<img src="animated/rainy-6.svg">`;
+        icon.innerHTML = `<img src="../dist/img/rainy-6.svg">`;
     } else if (weatherReport.innerText === 'Mist') {
-        icon.innerHTML = `<img src="animated/snowy-1.svg">`;
+        icon.innerHTML = `<img src="../dist/img/snowy-1.svg">`;
     } else {
-        icon.innerHTML = `<img src="animated/day.svg">`;
+        icon.innerHTML = `<img src="../dist/img/day.svg">`;
     }
 }
