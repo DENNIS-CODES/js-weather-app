@@ -10,7 +10,7 @@ A weather forecast site using the weather API
   * npm
   * webpack
   
- ## See a live demo [Here](https://raw.githack.com/edieatha/webpack-restaurant-page/development/dist/index.html)
+ ## See a live demo [Here](https://rawcdn.githack.com/edieatha/js-weather-app/fde279e2314f92d21d9c26d916fd7dedcd0b5d84/dist/index.html)
   
 # Screenshot
 
