@@ -58,5 +58,23 @@ function displayResults (weather) {
     });
 
 
+    let weatherReport = document.querySelector('.current .weather');
+    weatherReport.innerText = weather.weather[0].main;
 
+    let hilow = document.querySelector('.hi-low');
+    hilow.innerText = `${weather.main.temp_min}°c / ${weather.main.temp_max}°c`;
+
+    let icon = document.querySelector('.current .icon')
+
+    if (weatherReport.innerText === 'Clouds') {
+        icon.innerHTML = `<img src="animated/cloudy.svg">`;
+    }else if (weatherReport.innerText === 'Clear') {
+        icon.innerHTML = `<img src="animated/day.svg">`;
+    } else if (weatherReport.innerText === 'Rain') {
+        icon.innerHTML = `<img src="animated/rainy-6.svg">`;
+    } else if (weatherReport.innerText === 'Mist') {
+        icon.innerHTML = `<img src="animated/snowy-1.svg">`;
+    } else {
+        icon.innerHTML = `<img src="animated/day.svg">`;
+    }
 }
