@@ -1,13 +1,13 @@
-const  dateBuilder = (d) => {
-    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
-    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const dateBuilder = (d) => {
+  const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
-    let day = days[d.getDay()];
-    let date = d.getDate();
-    let month = months[d.getMonth()];
-    let year = d.getFullYear();
+  const day = days[d.getDay()];
+  const date = d.getDate();
+  const month = months[d.getMonth()];
+  const year = d.getFullYear();
 
-    return `${day} ${date} ${month} ${year}`
+  return `${day} ${date} ${month} ${year}`;
 };
 
 export default dateBuilder;
