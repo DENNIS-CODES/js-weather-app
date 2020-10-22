@@ -1,4 +1,5 @@
 import displayResults from "./results";
+import dateBuilder from "./date";
 
 const api = {
     key: "74b515b6adf05a133d5641ca29abaa14",
@@ -26,14 +27,4 @@ window.onload = function () {
     date.innerText = dateBuilder(now);
 }
 
-function  dateBuilder (d) {
-    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
-    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-    let day = days[d.getDay()];
-    let date = d.getDate();
-    let month = months[d.getMonth()];
-    let year = d.getFullYear();
-
-    return `${day} ${date} ${month} ${year}`
-}
