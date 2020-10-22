@@ -68,14 +68,20 @@ main {
     color: #FFFFFF;
     font-size: 80px;
     font-weight: 800;
-    margin: 20px 0;
+    margin-top: 20px;
     text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
 }
 
 .current .temp span {
     font-weight: 800;
 }
 
+.current .toggle {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 11px;
+}
 .current .weather {
     color: #FFFFFF;
     font-size: 25px;
