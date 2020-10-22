@@ -8,11 +8,11 @@ const api = {
 
 const searchBox = document.querySelector('.search-box');
 
-function getResults(query) {
+const getResults = (query) => {
   fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`, { mode: 'cors' }).then((weather) => weather.json()).then(displayResults);
 }
 
-function setQuery(event) {
+const setQuery = (event) => {
   if (event.keyCode === 13) {
     getResults(searchBox.value);
   }
