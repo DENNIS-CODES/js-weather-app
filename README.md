@@ -10,7 +10,7 @@ A weather forecast site using the weather API
   * npm
   * webpack
   
- ## See a live demo [Here](https://rawcdn.githack.com/edieatha/js-weather-app/fde279e2314f92d21d9c26d916fd7dedcd0b5d84/dist/index.html)
+ ## See a live demo [Here](https://rawcdn.githack.com/edieatha/js-weather-app/4442739f0b06a1b98ff7a932449990614dc41c3d/dist/index.html)
   
 # Screenshot
 
@@ -58,4 +58,4 @@ Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/edieatha/js-weather-app/issues).
 
- # Live Dev [Here](https://rawcdn.githack.com/edieatha/js-weather-app/fde279e2314f92d21d9c26d916fd7dedcd0b5d84/dist/index.html)
+ # Live Dev [Here](https://raw.githack.com/edieatha/js-weather-app/weather-app/dist/index.html)
