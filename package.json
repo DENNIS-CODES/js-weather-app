@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/edieatha/js-weather-app.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "edieatha",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/edieatha/js-weather-app/issues"

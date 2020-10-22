@@ -12,9 +12,7 @@ A weather forecast site using the weather API
   
 # Screenshot
 
-![screenshot](img0.png)
-![screenshot](img1.png)
-![screenshot](img2.png)
+![screenshot](screenshot.gif)
 
 ## Getting Started:
 
