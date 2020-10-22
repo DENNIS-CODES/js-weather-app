@@ -45,4 +45,18 @@ function displayResults (weather) {
     let temp = document.querySelector('.current .temp');
     temp.innerHTML = `${Math.round(weather.main.temp)}<span>°c</span>`;
 
+    temp.addEventListener("click", function (){
+        let metric = document.querySelector('.current .temp span');
+        let celsius = Math.round(weather.main.temp);
+
+        console.log(metric.innerText)
+        if (metric.innerText === '°c') {
+            temp.innerHTML = `${(celsius * 9/5) + 32}<span>°f</span>`;
+        } else {
+            temp.innerHTML = `${celsius}<span>°c</span>`;
+        }
+    });
+
+
+
 }
