@@ -35,3 +35,14 @@ function  dateBuilder (d) {
 
     return `${day} ${date} ${month} ${year}`
 }
+
+function displayResults (weather) {
+
+    let city = document.querySelector('.location .city');
+    city.innerText = `${weather.name}, ${weather.sys.country}`;
+
+
+    let temp = document.querySelector('.current .temp');
+    temp.innerHTML = `${Math.round(weather.main.temp)}<span>°c</span>`;
+
+}
