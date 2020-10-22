@@ -10,6 +10,8 @@ A weather forecast site using the weather API
   * npm
   * webpack
   
+ ## See a live demo [Here](https://raw.githack.com/edieatha/webpack-restaurant-page/development/dist/index.html)
+  
 # Screenshot
 
 ![screenshot](screenshot.gif)
@@ -36,8 +38,6 @@ To get a local copy up and running follow these simple example steps:
 
 8. Sixth, Open dist/index.html page with browser
 
-
-## See a live demo [Here](https://raw.githack.com/edieatha/webpack-restaurant-page/development/dist/index.html)
 
 ## Show your support
 Give a ⭐️ if you like this project!
