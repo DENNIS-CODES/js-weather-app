@@ -11,3 +11,10 @@ function setQuery (event) {
         getResults(searchBox.value);
     }
 }
+
+function getResults (query) {
+    fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`, {mode: 'cors'}).then(weather => {
+        return weather.json();
+    }).then(displayResults)
+}
+
