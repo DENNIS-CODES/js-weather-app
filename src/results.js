@@ -10,8 +10,8 @@ const displayResults = (weather) => {
     const celsius = Math.round(weather.main.temp);
 
     if (metric.innerText === '°c') {
-      let num = (celsius * 1.8) + 32;
-      temp.innerHTML = `${Math.round( num * 100) / 100 }<span>°f</span>`;
+      const num = (celsius * 1.8) + 32;
+      temp.innerHTML = `${Math.round(num * 100) / 100}<span>°f</span>`;
     } else {
       temp.innerHTML = `${celsius}<span>°c</span>`;
     }
